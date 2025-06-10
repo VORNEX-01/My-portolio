@@ -10,14 +10,15 @@ export default function About() {
       transition={{ duration: 0.8 }}
     >
       <h2>درباره من</h2>
+      <h1>vornex-01</h1>
       <div className="about-content">
         <img 
           src="src/img/me.jpg" 
           alt="VΩRNEX-01" 
-          className="profile-pic" 
+          className="profile-pic w-full md:w-1/2 h-auto" 
         />
         <div className="about-text">
-          <p>من محمدرضا هستم، با لقب VΩRNEX-01، برنامه‌نویس فرانت اند.</p>
+          <p>فعلا به عنوان برنامه نویس فرانت اند فریلنسری میکنم. </p>
           <p>علاقه‌مند به توسعه وب، امنیت سایبری و هوش مصنوعی.</p>
           <p>توی این مسیر، روی تکنولوژی‌های امنیتی ، آپدیت کردن توسعه وب و هوش مصنوعی تمرکز دارم و همیشه به دنبال یادگیری مهارت‌های جدیدم.</p>
           <p>رشته تحصیلیم : کامپیوتر(توسعه وب و بانک اطلاعاتی)</p>
