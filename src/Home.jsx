@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
 
 export default function Home() {
   return (
@@ -12,9 +14,8 @@ export default function Home() {
       <h1 >سلام! من VΩRNEX-01 هستم</h1>
       <p>برنامه‌نویس فرانت اند </p>
       <p>تخصص من: React, JavaScript , Tailwindcss, Css , Html </p>
-      <button onClick={() => window.location.href = '/about'} className="btn-primary">
-        درباره من بیشتر بدانید
-      </button>
+        <Link to="/about"><button className="btn-primary"> درباره من بیشتر بدانید </button></Link>
+      
     </motion.div>
   );
 }

@@ -26,11 +26,11 @@ const Socials = () => {
         </li>
         <li className="flex items-center gap-3">
           <FaInstagram className="text-pink-400 text-2xl" />
-          <a href="https://instagram.com/mr-vornex01" target="_blank" rel="noopener noreferrer">اینستاگرام من</a>
+          <a href="https://instagram.com/vornex01" target="_blank" rel="noopener noreferrer">اینستاگرام من</a>
         </li>
         <li className="flex items-center gap-3">
           <FaLinkedin className="text-blue-600 text-2xl" />
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">لینکدین من</a>
+          <a href="" target="_blank" rel="noopener noreferrer">لینکدین من</a>
         </li>
         <li>
           <p>ایمیل: mrvornexlinux@gmail.com</p>
