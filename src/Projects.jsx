@@ -12,7 +12,7 @@ export default function Projects() { const projects = [
   ];
 
   return (
-    <div className="p-8">
+    <div className="p-10">
       <h1 className="text-2xl font-bold mb-2 text-center">نمونه‌کارها</h1>
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((proj, index) => (

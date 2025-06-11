@@ -118,7 +118,7 @@ p {
   flex-wrap: wrap;
 }
 .profile-pic {
-  width: 250px;
+  width: 200px;
   border-radius: 15px;
   box-shadow: 0 0 20px #7f8cff;
   transition: transform 0.3s ease;
