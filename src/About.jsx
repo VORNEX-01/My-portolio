@@ -15,7 +15,7 @@ export default function About() {
         <img 
           src="src/img/me.jpg" 
           alt="VΩRNEX-01" 
-          className="profile-pic w-full md:w-1/2 h-auto" 
+          className="profile-pic w-full h-auto" 
         />
         <div className="about-text">
           <p>فعلا به عنوان برنامه نویس فرانت اند فریلنسری میکنم. </p>
