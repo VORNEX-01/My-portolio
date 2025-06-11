@@ -6,7 +6,7 @@ export default function Testimonials() {
   const [comments, setComments] = useState([
     { id: 1, name: 'علی', text: 'کار با vornex عالی بود، خیلی حرفه‌ای و دقیق!' },
     { id: 2, name: 'سمیرا', text: 'تو کارش خیلی حرفه ایه ' },
-    { id: 3, name: 'فاطمه ', text: 'عالی و کاربلد مثل همیشه😊❤' },
+    { id: 3, name: 'فاطمه ', text: 'عالی و کاربلد مثل همیشه😊' },
   ]);
   const [form, setForm] = useState({ name: '', text: '' });
 
@@ -29,7 +29,8 @@ export default function Testimonials() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
     >
-      <h2>نظرات کاربران</h2>
+      <h1>نظرات کاربران</h1>
+      <h2>خوشحال میشم بعد همکاری نظرات تون رو ثبت کنید.</h2> <hr className="p-[6px]"/> <br/>
       <ul className="comments-list">
         {comments.map(comment => (
           <li key={comment.id} className="comment-item">
