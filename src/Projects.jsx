@@ -1,12 +1,17 @@
 export default function Projects() { const projects = [
     {
-      title: "مینی‌شاپ (MiniShop)",
-      description: "یک فروشگاه ساده با رابط کاربری سبک و ریسپانسیو برای نمایش محصولات.",
-      link: "", // لینک بعداً اضافه میشه
+      title: "فروشگاه موبایل",
+      description: "سایت فروشگاهی سطح متوسط با استایل خفن و سه بعدی.",
+      link: "https://persian-golf-vornex.netlify.app/", // لینک بعداً اضافه میشه
     },
     {
       title: "پروژه Todo List",
       description: "لیست کارها با قابلیت افزودن، ویرایش، حذف و ذخیره‌سازی اطلاعات.",
+      link: "https://to-do-appvornex.netlify.app/",
+    },
+    {
+      title: "mini shop",
+      description: "فروشگاه کوچک باطراحی رابط کاربری و ریسپانسیو.",
       link: "https://to-do-appvornex.netlify.app/",
     },
   ];
